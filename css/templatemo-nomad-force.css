@@ -108,6 +108,7 @@ p {
 }
 
 .typing-demo {
+  margin: 0 auto;
   width: 54ch;
   animation: typing 4s steps(54), blink 1s step-end infinite alternate;
   white-space: nowrap;
