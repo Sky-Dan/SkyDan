@@ -21,13 +21,13 @@ https://templatemo.com/tm-567-nomad-force
 
   --body-font-family: "Press Start 2P", sans-serif;
 
-  --h1-font-size: 48px;
-  --h2-font-size: 36px;
-  --h3-font-size: 30px;
-  --h4-font-size: 24px;
-  --h5-font-size: 20px;
-  --h6-font-size: 18px;
-  --p-font-size: 16px;
+  --h1-font-size: 54px;
+  --h2-font-size: 40px;
+  --h3-font-size: 34px;
+  --h4-font-size: 26px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 18px;
   --copyright-text-font-size: 14px;
   --custom-link-font-size: 12px;
 
@@ -107,6 +107,28 @@ p {
   letter-spacing: 0.5px;
 }
 
+.typing-demo {
+  width: 54ch;
+  animation: typing 4s steps(54), blink 1s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 .text-secondary-white-color {
   color: var(--text-secondary-white-color);
 }
@@ -153,7 +175,7 @@ a:hover {
 }
 
 .overlay {
-  background: linear-gradient(to top, #000, transparent 130%);
+  background: linear-gradient(to top, #000, transparent 150%);
   position: absolute;
   top: 0;
   right: 0;
